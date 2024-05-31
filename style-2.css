@@ -1,0 +1,43 @@
+.logo{
+    padding: 10px;
+    display: block;
+}
+.logo-img{
+    width: 70px;
+}
+@media (min-width:960px)
+{
+    .logo-img{
+        width: 119px;
+    }
+}
+.widgets{
+    display: flex;
+    gap: 10px;
+}
+.widget-item{
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 3px, 5px;
+    text-decoration: none;
+    color: #000;
+}
+.widget-title{
+    font-size: 10px;
+}
+.widget-values{
+    display: flex;
+}
+.widget_icon{
+
+}
+.widget-val{
+
+}
+.home-tab-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
