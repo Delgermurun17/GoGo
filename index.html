@@ -1,199 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-2.css">
+    <link rel="icon" href="https://mgl.gogo.mn/newsn/v4/images/favicon.bb471276.png" type="image/png" sizes="50x50">
     <title>GoGo</title>
-    <style>
-        * {
-            margin: 0;
-            font-family: Helvetica Neue;
-
-        }
-
-        body {
-            max-width: 1100px;
-            margin: auto;
-            padding: 40px;
-        }
-
-        .home-top-section {
-            background: linear-gradient(180deg, #FFFFFF 0%, #F7F7F7 100%);
-
-        }
-
-        .top-container {
-
-            margin: auto;
-        }
-
-        .header {
-            display: flex;
-            margin-top: 30px;
-            margin-bottom: 40px;
-        }
-
-        .top-navigation {
-            flex: 1;
-            display: flex;
-            flex-direction: reverse;
-            justify-content: space-evenly;
-        }
-
-        .top-navigation>.box {
-            font-size: 16px;
-            font-weight: 700;
-            line-height: 22px;
-            text-align: left;
-            color: #000;
-
-        }
-
-        .top-widget {
-            flex: 1;
-        }
-
-        .home-feature {
-            display: flex;
-            max-height: 385px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            background: linear-gradient(90deg, #F4F4F4 7%, rgba(255, 255, 255, 0.22) 17%);
-
-        }
-
-
-        .home-feature-top-button {
-            width: 72.41px;
-            height: 30px;
-            top: 39px;
-            left: 40px;
-            border-radius: 100px;
-            background: linear-gradient(256.55deg, #E08100 0%, #C90027 100%);
-            transition: 0.3s;
-            margin: 39px 0 0 40px;
-
-        }
-
-        .home-feature-top-button>div {
-            font-size: 12px;
-            font-weight: 700;
-            line-height: 20px;
-            text-align: center;
-            padding-top: 5px;
-            color: #FFFFFF;
-
-
-        }
-
-        .home-feature-top-button:hover {
-            width: 80px;
-        }
-
-        .home-feature-top-text {
-            font-size: 26px;
-            font-weight: 700;
-            line-height: 36px;
-            color: #000;
-            margin: 20px 0 0px 40px;
-        }
-
-        .home-feature-bottom-text {
-            font-size: 13px;
-            font-weight: 500;
-            line-height: 20px;
-            color: #000;
-            opacity: 0.4;
-            margin-left: 40px;
-            margin-bottom: 30px;
-            margin-top: 19.5px;
-            height: 60px;
-        }
-
-        .home-feature-bottom-button {
-            width: 65.25px;
-            height: 36px;
-            top: 228px;
-            border-radius: 100px;
-            background: #F0EFEF;
-            margin-left: 40px;
-            transition: 0.6s;
-        }
-
-        .home-feature-bottom-button:hover {
-            width: 80.25px;
-            height: 38px;
-            background: white;
-
-        }
-
-        .home-feature-image {
-            margin-left: 15px;
-        }
-
-        .home-subfeature {
-            display: flex;
-            gap: 10px;
-            justify-content: space-between;
-        }
-
-        .home-subfeature-item {
-            flex: 1;
-        }
-
-        .home-subfeature-ad {
-            flex: 1;
-        }
-
-        .subfeature-img {
-            width: auto;
-            height: auto;
-        }
-
-
-
-        @media(max-width:960px) {
-            .top-container {
-                display: none;
-            }
-        }
-
-        .story-container {}
-
-        .story-title {}
-
-        .story-item-container {
-            display: flex;
-        }
-
-        .story-item {
-            flex: 1;
-        }
-    </style>
 </head>
 
 <body>
-    <section class="home-top-section">
-        <div class="top-container">
-            <header class="header">
-                <div class="top-logo">
-                    <div class="box"><img src="/Link → gogo-logo.345096b3.png.png" alt="gogo"></div>
+    <div class="container">
+        <div>
+            <div class="header">
+
+                <div class="header-logo">
+                    <a class="logo" href="https://gogo.mn/"><svg width="119" height="39" viewBox="0 0 119 39" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <rect width="119" height="38.91" fill="url(#pattern0_1_35)"/>
+                        <defs>
+                        <pattern id="pattern0_1_35" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_1_35" transform="scale(0.00473934 0.0144928)"/>
+                        </pattern>
+                        <image id="image0_1_35" width="211" height="69" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANMAAABFCAYAAADQONOHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAF7mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMTEtMTJUMTU6NTM6MjkrMDg6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE5LTA2LTE0VDE1OjAzOjEyKzA4OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE5LTA2LTE0VDE1OjAzOjEyKzA4OjAwIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOmI3YzBmMTEwLTBjNzQtNDY0Ny1iNDA5LTgyNWRjN2I1OGFjMSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo0RkVCNDY3QUNBRTgxMUU0QjY3RkJFOTZBN0FGREY4MSIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjRGRUI0NjdBQ0FFODExRTRCNjdGQkU5NkE3QUZERjgxIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NEZFQjQ2NzdDQUU4MTFFNEI2N0ZCRTk2QTdBRkRGODEiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NEZFQjQ2NzhDQUU4MTFFNEI2N0ZCRTk2QTdBRkRGODEiLz4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0ic2F2ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6YjdjMGYxMTAtMGM3NC00NjQ3LWI0MDktODI1ZGM3YjU4YWMxIiBzdEV2dDp3aGVuPSIyMDE5LTA2LTE0VDE1OjAzOjEyKzA4OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgc3RFdnQ6Y2hhbmdlZD0iLyIvPiA8L3JkZjpTZXE+IDwveG1wTU06SGlzdG9yeT4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5H4pEXAAAWA0lEQVR4nO2debQcVZ3HP9V5Ly8LIfCSkIRAEkIImgUSwpKQBYYtEQZMwIWJGQUPIOvMqAiIg4IiuCHiMgxHRBAdhGETI7usRlkCBlkMCOFBIIFsb89bu3v++HbZ1dXVXVX3Vvd7j/FzTp+3dNWt233rd+t3f9t1apfdwADgeGApMBuYBPQC64AHgKv7rluVxWlsJn34IaQPOwQam/u6O3GYCXwcOASYBgwG3gH+CFwPvNJ3XascNQm3VweMAIYDtUAa2AG0AB0G7S0Gvg3MC3hvErAE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"/>
+                        </defs>
+                        </svg>
+                        </a>
                 </div>
-                <div class="top-navigation">
-                    <div class="box"> Мэдээ</div>
-                    <div class="box"> GoGo булан </div>
-                    <div class="box"> Үзэх </div>
-                    <div class="box"> Хэв маяг</div>
-                    <div class="box"> English</div>
-                    <div class="box"> <span class="material-symbols-outlined">
-                            search
-                        </span></div>
+
+                <div class="header-navigation">
+                    <div class="top-navigation">
+                        <div class="box"> Мэдээ</div>
+                        <div class="box"> GoGo булан </div>
+                        <div class="box"> Үзэх </div>
+                        <div class="box"> Хэв маяг</div>
+                        <div class="box"> English</div>
+                        <div class="box"> <span class="material-symbols-outlined">search</span></div>
+                    </div>
                 </div>
-                <div class="top-widget">
-                    <div class="box">Top widget</div>
+                <div class="header-widget">
+                    <div class="widgets">
+                        <a href="" class="widget-item">
+                            <div class="widget-title">Title</div>
+                            <div class="widget-values">
+                                <div class="widget-icon">Icon</div>
+                                <div class="widget-val">Text</div>
+                            </div>
+                        </a>
+                        <a href="" class="widget-item">
+                            <div class="widget-title">Title</div>
+                            <div class="widget-values">
+                                <div class="widget-icon">Icon</div>
+                                <div class="widget-val">Text</div>
+                            </div>
+                        </a>
+                        <a href="" class="widget-item">
+                            <div class="widget-title">Title</div>
+                            <div class="widget-values">
+                                <div class="widget-icon">Icon</div>
+                                <div class="widget-val">Text</div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </header>
-            <div class="">
+                <div class="header-menubar">
+                    <div>Menubar</div>
+                </div>
+
+            </div>
+            <section class="home-feature-mobile">
+                <div class="home-highlight">Mobile highlight</div>
+                <div class="home-tab">
+                    <a href="" class="home-tab-item">
+                        <div class="home-tab-icon">icon</div>
+                        <div class="home-tab-text">Text</div>
+                    </a>
+                    <a href="" class="home-tab-item">
+                        <div class="home-tab-icon">icon</div>
+                        <div class="home-tab-text">Text</div>
+                    </a>
+                    <a href="" class="home-tab-item">
+                        <div class="home-tab-icon">icon</div>
+                        <div class="home-tab-text">Text</div>
+                    </a>
+                </div>
+            </section>
+            <section class="home-feature-desktop">
                 <div class="home-feature">
                     <div class="home-feature-half-container">
                         <div class="home-feature-top-button">
@@ -207,45 +99,163 @@
                             нэг болох Европын Холбооны Органик Бүтээгдэхүүний сертификатыг амжилттай гардан авлаа.
                         </div>
                         <div class="home-feature-bottom-button">
-                            <div></div>
                         </div>
                     </div>
                     <div class="home-feature-image">
-                        <div class="box"><img src="Link.png" alt=""></div>
+                        <div class="feature-item-img"><img src="Link.png" alt=""> </div>
                     </div>
                 </div>
                 <div class="home-subfeature">
                     <div class="home-subfeature-item">
-                        <div class="box"><img class="subfeature-img" src="subfeature-item-1.png" width: 263.75px;
-                                height: 175px; alt=""></div>
-                    </div>
-                    <div class="home-subfeature-item">
-                        <div class="box"><img class="subfeature-img" src="subfeature-item-2.png" width: 263.75px;
-                                height: 175px; alt=""></div>
-                    </div>
-                    <div class="home-subfeature-item">
-                        <div class="box"><img class="subfeature-img" src="subfeature-item-3.png" width: 263.75px;
-                                height: 175px; alt=""></div>
-                    </div>
-                    <div class="home-subfeature-ad">
-                        <div class="box"><img src="subfeature-ad.png" alt=""></div>
+                        <div style="width: 265px;">
+                            <a href="" class="subfeature-item">
+                                <div class="subfeature-item-img">
+                                    <img src="subfeature-item-1.png" alt="">
+                                    <div class="subfeature-item-cover">Унших</div>
+                                </div>
+                                <div class="subfeature-item-title">Энэ жил 11 мянга гаруй ээж Алдарт эхийн нэг,
+                                    хоёрдугаар одон хүртэж байна</div>
+                                <div class="subfeature-item-share">share</div>
+                            </a>
+                        </div>
+                        <div style="width: 265px;">
+                            <a href="" class="subfeature-item">
+                                <div class="subfeature-item-img">
+                                    <img src="subfeature-item-2.png" alt="">
+                                    <div class="subfeature-item-cover">Унших</div>
+                                </div>
+                                <div class="subfeature-item-title">Энэ жил 11 мянга гаруй ээж Алдарт эхийн нэг,
+                                    хоёрдугаар одон хүртэж байна</div>
+                                <div class="subfeature-item-share">share</div>
+                            </a>
+                        </div>
+                        <div style="width: 265px;">
+                            <a href="" class="subfeature-item">
+                                <div class="subfeature-item-img">
+                                    <img src="subfeature-item-3.png" alt="">
+                                    <div class="subfeature-item-cover">Унших</div>
+                                </div>
+                                <div class="subfeature-item-title">Энэ жил 11 мянга гаруй ээж Алдарт эхийн нэг,
+                                    хоёрдугаар одон хүртэж байна</div>
+                                <div class="subfeature-item-share">share</div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="" class="subfeature-ad">
+                                <img src="subfeature-ad.png" alt="">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <article class="story-container">
-        <div class="story-title">GoGo story</div>
-        <div class="story-item-container">
-            <div class="story-item">Story item</div>
-            <div class="story-item">Story item</div>
-            <div class="story-item">Story item</div>
-            <div class="story-item">Story item</div>
-            <div class="story-item">Story item</div>
-            <div class="story-item">Story item</div>
-        </div>
+            </section>
+            <section class="home-main_mobile">
+                <div class="home-main-story">
+                    <div class="home-main-story-titile">
+                        <div class="main-story-title_gogo">GoGo <span class="main-story-title_story">СТОРИ</span></div>
+                    </div>
+                    <div class="main-story-item">
+                        <a href="" class="story-item">
+                            <div class="story-item-img">
+                                <img src="https://mgl.gogo.mn/newsn/story/319355-29052024-1716978667-1674308385-park021-66580340b9163876268422.jpg"
+                                    class="story-img">
+                                <img src="	https://mgl.gogo.mn//newsn/v4/images/author.dece2426.svg" class="logo" alt="logo" style="height: 30px; width: 30px;">
+                                <div class="gradient-cover"></div>
+                                <div class="story-item-title">
+                                    <p>““Хөгийн боловсролын систем...” хэмээсэн тэр сурагчтай би нэг талаараа санал нийлнэ”</p>
+                                </div>
+                                <div class="view-count">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>50
+                                </div>
+                            </div>
+                        </a>
+        
+                        <a href="" class="story-item">
+                            <div class="story-item-img"><img
+                                    src="https://mgl.gogo.mn/newsn/story/319355-29052024-1716978667-1674308385-park021-6657ffdf07269592756124.jpg"
+                                    alt="" class="story-img"> <img src="	https://mgl.gogo.mn//newsn/v4/images/author.dece2426.svg" class="logo" alt="logo" style="height: 30px; width: 30px;">
+                                <div class="gradient-cover"></div>
+                                <div class="story-item-title">
+                                    <p>
+                                        "Галзуу хулгана"-д суусан иргэнд гурван эмч яаралтай тусламж үзүүлсэн ч таталт өгч амиа
+                                        алджээ
+                                    </p>
+                                </div>
+                                <div class="view-count">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>50
+                                </div>
+                            </div>
+                        </a>
+        
+                        <a href="" class="story-item">
+                            <div class="story-item-img"><img
+                                    src="https://mgl.gogo.mn/newsn/story/319297-28052024-1716874971-1788681227-imgl6902-084047-86766663120220627084051-6657ff866f688988169949.jpeg"
+                                    alt="" class="story-img"> <img src="	https://mgl.gogo.mn//newsn/v4/images/author.dece2426.svg" class="logo" alt="logo" style="height: 30px; width: 30px;">
+                                <div class="gradient-cover"></div>
+                                <div class="story-item-title">
+                                    <p>
+                                        Хурдтай явж байх үед автомашины дугуй хагарвал юу хийх вэ?
+                                      </p>
+                                </div>
+                                <div class="view-count">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>50
+                                </div>
+                            </div>
+                        </a>
+                            <a href="" class="story-item">
+                                <div class="story-item-img"><img
+                                        src="https://mgl.gogo.mn/newsn/story/319332-29052024-1716984689-944304701-mixcollage-29-may-2024-08-10-pm-8715-6657c7df58839473299743.jpg"
+                                        alt="" class="story-img"> <img src="	https://mgl.gogo.mn//newsn/v4/images/author.dece2426.svg" class="logo" alt="logo" style="height: 30px; width: 30px;">
+                                    <div class="gradient-cover"></div>
+                                    <div class="story-item-title">
+                                        <p>
+                                            Монголын буучид Европын багуудыг илүүрхлээ
+                                          </p>
+                                    </div>
+                                    <div class="view-count">
+                                        <i class="fa fa-eye" aria-hidden="true"></i>50
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a href="" class="story-item">
+                                <div class="story-item-img"><img
+                                        src="https://mgl.gogo.mn/newsn/story/cover111-6656c8c286162110286283.jpg" class="story-img"
+                                        alt=""> <img src="	https://mgl.gogo.mn//newsn/v4/images/author.dece2426.svg" class="logo" alt="logo" style="height: 30px; width: 30px;">
+                                    <div class="gradient-cover"></div>
+                                    <div class="story-item-title">
+                                        <p>
+                                            “Кино бол цогц урлаг, таашаал, зугаа цэнгээн төдийгүй мөн бизнес”
+                                          </p>
+                                    </div>
+                                    <div class="view-count">
+                                        <i class="fa fa-eye" aria-hidden="true"></i>50
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a href="" class="story-item ">
+                                <div class="story-item-img"><img
+                                        src="https://mgl.gogo.mn/newsn/story/venus-6656874edbd72089132641.jpg" class="story-img"
+                                        alt=""> <img src="	https://mgl.gogo.mn//newsn/v4/images/author.dece2426.svg" class="logo" alt="logo" style="height: 30px; width: 30px;">
+                                    <div class="gradient-cover"></div>
+                                    <div class="story-item-title">
+                                        <p>
+                                            Сугар гараг өмнө нь судалж байснаас галт уулын идэвхжил илүү өндөртэйг тогтоожээ
+                                          </p>
+                                    </div>
+                                    <div class="view-count">
+                                        <i class="fa fa-eye" aria-hidden="true"></i>50
+                                    </div>
+                                </div>
+                            </a>
+        
 
-    </article>
+                    </div>
+                </div>
+        
+            </section>
+        </div>
+    </div>
 </body>
 
 </html>
